@@ -14,3 +14,9 @@ In terms of User Interface design, I have handwritten all the user interface des
 with the help of inbuilt QT libraries such as QGraphicsItem. Since the UI is simple in
 Chess games it feels me not necessary to use drag and drop .ui files which drives me
 more complicated.
+
+This Is how I made the structure of chessboard with 8 * 8 White and Grey cubes.
+
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/cubes.png" width="400"></h1>
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/first.png" width="600"></h1>
+
