@@ -18,5 +18,14 @@ more complicated.
 This Is how I made the structure of chessboard with 8 * 8 White and Grey cubes.
 
 <h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/cubes.png" width="400"></h1>
-<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/first.png" width="600"></h1>
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/first.png" width="500"></h1>
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/second%20screen.PNG" width="600"></h1>
 
+<h1 align="middle">Folder Structure</h1>
+With the use of “Doxygen” I have listed my class hierarchy as follows,
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/classes.jpg" width="400"></h1>
+
+And especially I have used Resource Collection Files (.qrc files) to store image files in binary format. This is useful because the application always needs this set of image files and its easy to load when we sore them as binary. Additionally, this will reduce the risk of losing any important files.
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/YourFirstMove/blob/master/screenshots/resource.png"width="200" ></h1>
+
+<h1 align="middle">:relaxed::relaxed:Thanks for watching!:relaxed::relaxed:</h1>    
