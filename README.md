@@ -1,4 +1,4 @@
-# If anyone interested feel free to contact me: https://www.facebook.com/MillionNodes/?modal=admin_todo_tour
+# <a href="https://www.linkedin.com/in/indrajith-ekanayake/">Contat me:</a>
 <h1 align="middle"><a href="https://stackexchange.com/users/11078123/indrajith-ekanayake"><img src="https://stackexchange.com/users/flair/11078123.png" width="208" height="58" alt="profile for Indrajith Ekanayake on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Indrajith Ekanayake on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a></h1>
 
 Developing a chess game is a challenge which no one will
@@ -9,3 +9,8 @@ FIRST MOVE” is the name of the application. I choose the name because it is th
 name of the first book that I read about chess at the age of 13
 
 <h1 align="middle">Your First Move</h1>
+<h2>GUI Design of the application</h2>
+In terms of User Interface design, I have handwritten all the user interface designing
+with the help of inbuilt QT libraries such as QGraphicsItem. Since the UI is simple in
+Chess games it feels me not necessary to use drag and drop .ui files which drives me
+more complicated.
