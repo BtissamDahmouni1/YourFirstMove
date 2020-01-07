@@ -1,0 +1,77 @@
+\hypertarget{class_chess_piece}{}\doxysection{Chess\+Piece Class Reference}
+\label{class_chess_piece}\index{ChessPiece@{ChessPiece}}
+Inheritance diagram for Chess\+Piece\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.958042cm]{class_chess_piece}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_chess_piece_a1a903e3bde877b645e3b7e7d65a059b6}\label{class_chess_piece_a1a903e3bde877b645e3b7e7d65a059b6}} 
+{\bfseries Chess\+Piece} (Q\+String team=\char`\"{}\char`\"{}, Q\+Graphics\+Item $\ast$parent=nullptr)
+\item 
+\mbox{\Hypertarget{class_chess_piece_ab4f3cf6fc3977c20d95218a0f50ba5f2}\label{class_chess_piece_ab4f3cf6fc3977c20d95218a0f50ba5f2}} 
+void {\bfseries mouse\+Press\+Event} (Q\+Graphics\+Scene\+Mouse\+Event $\ast$event)
+\item 
+\mbox{\Hypertarget{class_chess_piece_a46e140b774889c5ec1b9910ed763043d}\label{class_chess_piece_a46e140b774889c5ec1b9910ed763043d}} 
+void {\bfseries set\+Current\+Box} (\mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$box)
+\item 
+\mbox{\Hypertarget{class_chess_piece_a4428694b2eba5255a647899487f5511a}\label{class_chess_piece_a4428694b2eba5255a647899487f5511a}} 
+\mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$ {\bfseries get\+Current\+Box} ()
+\item 
+\mbox{\Hypertarget{class_chess_piece_ac9f38d190bd658243b001c51995756a1}\label{class_chess_piece_ac9f38d190bd658243b001c51995756a1}} 
+Q\+String {\bfseries get\+Side} ()
+\item 
+\mbox{\Hypertarget{class_chess_piece_a4d8f7a2897024219b0662582f5b5b91c}\label{class_chess_piece_a4d8f7a2897024219b0662582f5b5b91c}} 
+void {\bfseries set\+Side} (Q\+String value)
+\item 
+\mbox{\Hypertarget{class_chess_piece_af40fee810cd16591ea6f17bb8adadbab}\label{class_chess_piece_af40fee810cd16591ea6f17bb8adadbab}} 
+virtual void {\bfseries set\+Image} ()=0
+\item 
+\mbox{\Hypertarget{class_chess_piece_a831cdb564dcb98b908af835b08810a65}\label{class_chess_piece_a831cdb564dcb98b908af835b08810a65}} 
+bool {\bfseries get\+Is\+Placed} ()
+\item 
+\mbox{\Hypertarget{class_chess_piece_ad40868e12480efeac975c782da786e7e}\label{class_chess_piece_ad40868e12480efeac975c782da786e7e}} 
+void {\bfseries set\+Is\+Placed} (bool value)
+\item 
+\mbox{\Hypertarget{class_chess_piece_a152d3d7d5c0e7633b978d4bd0a9188a5}\label{class_chess_piece_a152d3d7d5c0e7633b978d4bd0a9188a5}} 
+Q\+List$<$ \mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$ $>$ {\bfseries move\+Location} ()
+\item 
+\mbox{\Hypertarget{class_chess_piece_a8f4893a927b60fcdaef14212639419f6}\label{class_chess_piece_a8f4893a927b60fcdaef14212639419f6}} 
+virtual void {\bfseries moves} ()=0
+\item 
+\mbox{\Hypertarget{class_chess_piece_a19363c4dfe40dd51bc48262df551809e}\label{class_chess_piece_a19363c4dfe40dd51bc48262df551809e}} 
+void {\bfseries decolor} ()
+\item 
+\mbox{\Hypertarget{class_chess_piece_ac01badd53fc0e370c8a8974fe6dcafbe}\label{class_chess_piece_ac01badd53fc0e370c8a8974fe6dcafbe}} 
+bool {\bfseries box\+Setting} (\mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$box)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_chess_piece_a04f5ef537c3e9b940db535b8c1485896}\label{class_chess_piece_a04f5ef537c3e9b940db535b8c1485896}} 
+bool {\bfseries first\+Move}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_chess_piece_a91aa7b833ecfc541f943c7ff9d3d410d}\label{class_chess_piece_a91aa7b833ecfc541f943c7ff9d3d410d}} 
+\mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$ {\bfseries current\+Box}
+\item 
+\mbox{\Hypertarget{class_chess_piece_a52f4df7cb8604c3edea9b4471acd4a6c}\label{class_chess_piece_a52f4df7cb8604c3edea9b4471acd4a6c}} 
+Q\+String {\bfseries side}
+\item 
+\mbox{\Hypertarget{class_chess_piece_ae365e0f769e2b6a58b1664eb85d58288}\label{class_chess_piece_ae365e0f769e2b6a58b1664eb85d58288}} 
+bool {\bfseries is\+Placed}
+\item 
+\mbox{\Hypertarget{class_chess_piece_aacd52f1d74acd813434f1948788ec7f9}\label{class_chess_piece_aacd52f1d74acd813434f1948788ec7f9}} 
+Q\+List$<$ \mbox{\hyperlink{class_chess_box}{Chess\+Box}} $\ast$ $>$ {\bfseries location}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+chesspiece.\+h\item 
+chesspiece.\+cpp\end{DoxyCompactItemize}
