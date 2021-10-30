@@ -5,7 +5,7 @@ Developing a chess game is a challenge which no one will
 accept because it has strong and highly developed algorithms over the centuries of
 time. It’s pretty challenge for myself to develop and implement all the algorithms but
 my passion motivated me to accept this challenge and do as much as I can. “YOUR
-FIRST MOVE” is the name of the application. I choose the name because it is the
+FIRST MOVE” is the name of the application. I choose the name because it is the    
 name of the first book that I read about chess at the age of 13
 
 <h1 align="middle">Your First Move</h1>
